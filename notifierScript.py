@@ -28,7 +28,7 @@ for jUrl in jUrls:
     notifiers.append(UrlNotifier(jUrl))
 
 for notifier in notifiers:
-    notifier.sing()
+    #notifier.sing()
     notifier.update()
     tgMsg = notifier.getMessage()
 
