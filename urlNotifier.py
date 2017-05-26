@@ -44,14 +44,13 @@ class UrlNotifier(object):
         self.download()
         filteredDiffs = self.getFilteredDiffs()
 
-        diffs = self.getDiffs()
-        print "unfiltered diffs: "
-        pprint(diffs)
-
-        print "filtered diffs: "
-        pprint(filteredDiffs)
+        #diffs = self.getDiffs()
+        #print "unfiltered diffs: "
+        #pprint(diffs)
 
         if len(filteredDiffs) > 0:
+            print "filtered diffs: "
+            pprint(filteredDiffs)
             self.createMessage()
         else:
             self.clearMessage()

@@ -2,6 +2,8 @@ import json, os, sys
 from urlNotifier import UrlNotifier
 from telegramBot import TelegramBot
 
+print(time.strftime("%Y/%m/%d %H:%M:%S"))
+
 chat_id = None
 directory = os.path.dirname(__file__)
 relJsonFile = "notifyURLs.json"
@@ -36,3 +38,7 @@ for notifier in notifiers:
         myBot.sendMessage(tgMsg)
     else:
         print "Nothing new on page: " + notifier.name
+
+
+print "====================="
+print ""
