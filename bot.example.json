@@ -1,0 +1,8 @@
+{
+  "bot": {
+    "name": "<BotName>",
+    "token": "0123456789:abcdefABCDEF",
+    "handle": "@myUniqueBot",
+    "defaultChatId": 1234567890
+  }
+}

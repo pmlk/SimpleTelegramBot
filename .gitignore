@@ -1,0 +1,6 @@
+.DS_Store
+*.html
+*.txt
+*.pyc
+bot.json
+notifyURLs.json

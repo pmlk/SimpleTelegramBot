@@ -1,0 +1,14 @@
+{
+  "URLs": [
+    {
+      "name": "Example",
+      "URL": "https://www.example.com",
+      "diffIgnore": ["<meta name=\"date\""]
+    },
+    {
+      "name": "Google",
+      "URL": "https://www.google.com",
+      "diffIgnore": []
+    }
+  ]
+}
