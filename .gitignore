@@ -1,5 +1,6 @@
 .DS_Store
 *.html
+*.log
 *.txt
 *.pyc
 bot.json
