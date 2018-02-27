@@ -4,4 +4,9 @@
 *.txt
 *.pyc
 bot.json
-notifyURLs.json
+urls.json
+.env
+.idea/
+data/
+logs/
+*.egg-info/
